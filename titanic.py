@@ -17,9 +17,10 @@ Table_percentage.plot(kind='bar', stacked=True, color=['blue', 'orange'])
 
 #Подписи на нашем графике
 matplotlib.pyplot.title('Статистика выживания на Титанике')  
-matplotlib.pyplot.legend(['выжило', 'умерло'])
+matplotlib.pyplot.legend(['умерло', 'выжило'])
 matplotlib.pyplot.xlabel('Класс')
-matplotlib.pyplot.ylabel('кол-во людей')
+matplotlib.pyplot.ylabel('% людей')
 
 #График
 matplotlib.pyplot.show()
+
